@@ -90,4 +90,78 @@ If all goes well, you're ready to start!
 
 4. **Test your setup**: Create a new file called `test.ipynb`. This is a Jupyter notebook. Click on a cell, type `print("Hello!")`, and press `Cmd + Enter` to run it. If it asks you to select a kernel, choose `base`.
 
+---
+
+## Terminal Basics
+
+The terminal is a text-based way to interact with your computer. Open it with `Cmd + Space`, type "Terminal", and press Enter. Here are the essential commands:
+
+| Command | What it does | Example |
+|---------|--------------|---------|
+| `pwd` | Shows your current location | `pwd` |
+| `ls` | Lists files in current folder | `ls` |
+| `cd` | Changes directory | `cd Documents` |
+| `cd ..` | Goes up one folder | `cd ..` |
+| `mkdir` | Creates a new folder | `mkdir my_project` |
+| `cp` | Copies a file | `cp file.txt copy.txt` |
+| `mv` | Moves or renames a file | `mv old.txt new.txt` |
+| `rm` | Deletes a file (careful!) | `rm file.txt` |
+
+**Tips:**
+- Use `Tab` to autocomplete file names
+- Use `↑` arrow to repeat previous commands
+- `~` means your home folder (e.g., `cd ~`)
+
+---
+
+## Git Basics
+
+Git is a version control system - it tracks changes to your files and lets you collaborate with others.
+
+### Installing Git on macOS
+
+Git usually comes pre-installed on macOS. To check, open Terminal and type:
+```bash
+git --version
+```
+
+If it's not installed, macOS will prompt you to install the Command Line Tools. Click "Install" and follow the instructions.
+
+### First-time setup
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+### Essential commands
+
+| Command | What it does |
+|---------|--------------|
+| `git clone <url>` | Downloads a repository |
+| `git status` | Shows what changed |
+| `git add <file>` | Stages a file for commit |
+| `git add .` | Stages all changes |
+| `git commit -m "message"` | Saves your changes with a description |
+| `git push` | Uploads your commits to the server |
+| `git pull` | Downloads updates from the server |
+
+### Typical workflow
+
+```bash
+# 1. Check what changed
+git status
+
+# 2. Stage your changes
+git add .
+
+# 3. Commit with a message
+git commit -m "Added new feature"
+
+# 4. Push to the server
+git push
+```
+
+---
+
 Congratulations! You're all set!
