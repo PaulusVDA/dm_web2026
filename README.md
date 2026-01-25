@@ -48,7 +48,6 @@ Python is a very nice language. It has a huge community from all different field
 
 Biologists? They love Python. Physicists? They don’t leave home without their Python book. Computer scientists? They love it. Philosophers? Plato was a Pythonist. So, whatever your field, Python and data visualization will be necessary. 
 
-But, atop everything, there's another top reason: I am the teacher, and I decide the language! Go sit down, and no more questions.[^1]
 
 ## Libraries We Will Use in This Course
 
