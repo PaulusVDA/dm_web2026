@@ -102,9 +102,19 @@ If all goes well, you're ready to start!
      sudo dpkg -i code_1.85.2-1705561292_amd64.deb
      ```
 
-6. **Initialize VSCode**:
-   - After installation, open VSCode from the "Show Applications" menu or using the `code` command in the terminal.
+6. **Open VSCode**:
+   - After installation, open VSCode from the "Show Applications" menu or by typing `code` in the terminal.
 
----
+## Setting up VSCode
 
-Now go back to the [main tutorial](README.md#defining-the-work-environment-in-vscode) to set up VSCode.
+1. **Create a project folder**: Create a folder for our first project and open it in VSCode (File -> Open Folder).
+
+2. **Install extensions**: Click on the Extensions icon in the left sidebar (or press `Ctrl + Shift + X`) and install:
+   - Python
+   - Jupyter
+
+3. **Select the Python interpreter**: Press `Ctrl + Shift + P`, type `select interpreter`, and choose the `base` environment.
+
+4. **Test your setup**: Create a new file called `test.ipynb`. This is a Jupyter notebook. Click on a cell, type `print("Hello!")`, and press `Ctrl + Enter` to run it. If it asks you to select a kernel, choose `base`.
+
+Congratulations! You're all set!

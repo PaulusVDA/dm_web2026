@@ -58,11 +58,19 @@ If all goes well, you're ready to start!
    - Choose whether you want to create desktop and Start menu shortcuts, then click 'Next'.
    - Click 'Install' to begin the installation.
 
-4. **Initialize Visual Studio Code**:
-   - After installation, you can open Visual Studio Code from the Start menu or by searching for 'Visual Studio Code' in the taskbar search.
+4. **Open VSCode**:
+   - After installation, open Visual Studio Code from the Start menu or by searching for "Visual Studio Code" in the taskbar.
 
-You have now successfully installed Conda and Visual Studio Code on Windows.
+## Setting up VSCode
 
----
+1. **Create a project folder**: Create a folder for our first project and open it in VSCode (File -> Open Folder).
 
-Now go back to the [main tutorial](README.md#defining-the-work-environment-in-vscode) to set up VSCode.
+2. **Install extensions**: Click on the Extensions icon in the left sidebar (or press `Ctrl + Shift + X`) and install:
+   - Python
+   - Jupyter
+
+3. **Select the Python interpreter**: Press `Ctrl + Shift + P`, type `select interpreter`, and choose the `base` environment.
+
+4. **Test your setup**: Create a new file called `test.ipynb`. This is a Jupyter notebook. Click on a cell, type `print("Hello!")`, and press `Ctrl + Enter` to run it. If it asks you to select a kernel, choose `base`.
+
+Congratulations! You're all set!

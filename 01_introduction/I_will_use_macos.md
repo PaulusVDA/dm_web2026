@@ -73,14 +73,21 @@ If all goes well, you're ready to start!
    - Open Finder, go to Applications, and double-click on Visual Studio Code.
    - Alternatively, press `Cmd + Space`, type "Visual Studio Code", and press Enter.
 
-4. **Install the 'code' command in PATH** (optional but recommended):
+4. **Install the 'code' command** (optional):
    - Open VSCode.
-   - Press `Cmd + Shift + P` to open the Command Palette.
-   - Type "shell command" and select "Shell Command: Install 'code' command in PATH".
+   - Press `Cmd + Shift + P`, type "shell command", and select "Shell Command: Install 'code' command in PATH".
    - Now you can open VSCode from Terminal by typing `code`.
 
-You have now successfully installed Conda and Visual Studio Code on macOS.
+## Setting up VSCode
 
----
+1. **Create a project folder**: Create a folder for our first project and open it in VSCode (File -> Open Folder).
 
-Now go back to the [main tutorial](README.md#defining-the-work-environment-in-vscode) to set up VSCode.
+2. **Install extensions**: Click on the Extensions icon in the left sidebar (or press `Cmd + Shift + X`) and install:
+   - Python
+   - Jupyter
+
+3. **Select the Python interpreter**: Press `Cmd + Shift + P`, type `select interpreter`, and choose the `base` environment.
+
+4. **Test your setup**: Create a new file called `test.ipynb`. This is a Jupyter notebook. Click on a cell, type `print("Hello!")`, and press `Cmd + Enter` to run it. If it asks you to select a kernel, choose `base`.
+
+Congratulations! You're all set!
