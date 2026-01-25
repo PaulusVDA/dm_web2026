@@ -139,7 +139,7 @@ git clone https://github.com/YOUR_USERNAME/dm_web2026.git
 cd dm_web2026
 ```
 
-**4. Set up to receive teacher updates**
+**4. Set up to receive updates**
 
 ```bash
 git remote add upstream https://github.com/luanteylo/dm_web2026.git
